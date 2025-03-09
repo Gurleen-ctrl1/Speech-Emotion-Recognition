@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+
+.card {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.btn-warning {
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #ffc107;
+    transform: scale(1.1);
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+}
